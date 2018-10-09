@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b2">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="279dp"
+        android:layout_height="188dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/indonesia" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Pelatih Timnas Indonesia Sudah Kantongi Kekuatan Myanmar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="324dp"
+        android:layout_height="266dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="268dp"
+        android:text="Jakarta, CNN Indonesia -- Asisten pelatih Timnas Indonesia Bima Sakti mengaku sudah mengantongi kekuatan Myanmar lewat tayangan video. Kedua tim akan melakoni uji coba internasional di Stadion Wibawa Mukti, Cikarang, Rabu (10/10).
+
+Myanmar kami sudah pantau kekuatan mereka lewat video, gaya permainan mereka cepat, dan mereka didominasi oleh pemain usia 23 tahun yang berlaga di Asian Games lalu, kata Bima Sakti dalam laman resmi PSSI."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

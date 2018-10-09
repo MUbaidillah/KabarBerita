@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b3">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="334dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="PSG vs Lyon Tampilkan Pesan Simpati untuk Korban Bencana Palu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="274dp"
+        android:layout_height="169dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/psg" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="341dp"
+        android:layout_height="296dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Jakarta, CNN Indonesia -- Ada yang spesial pada laga antara Paris Saint Germain (PSG) menjamu Olympique Lyon di Stadion Parc Des Princes, Minggu (7/10) malam. Pihak tuan rumah PSG menampilkan simpati untuk para korban bencana gempa dan tsunami di Palu dan Donggala, termasuk di Lombok yang menelan korban ribuan meninggal.
+
+Di balkon tribune stadion tersebut ditampilkan LED bertuliskan Tetap Kuat Indonesia versi berbahasa Indonesia dan versi Inggris: Stay Strong Indonesia. Laga tersebut berakhir untuk kemenangan PSG dengan skor 5-0 atas Lyon.
+
+Foto-foto pemandangan simpati dari Les Parisiens itu pun diunggah akun Twitter fan klub PSG Indonesia."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

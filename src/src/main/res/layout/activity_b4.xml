@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b4">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="207dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Lepas dari Messi, Neymar dalam Bayang-bayang Mbappe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="269dp"
+        android:layout_height="167dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/neymar" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="337dp"
+        android:layout_height="275dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="264dp"
+        android:text="Jakarta, CNN Indonesia -- Bintang Paris Saint-Germain, Neymar, kini berada dalam bayang-bayang pemain muda Kylian Mbappe setelah lepas dari Lionel Messi semasa di Barcelona.
+
+Neymar disebut-sebut sebagai talenta terbaik di dunia. Trio MSN Barcelona yang diisi Messi-(Luis) Suarez-Neymar, kala itu menjadi momok bagi lawan-lawanya.
+
+Ketiganya produktif mencetak gol dan menyumbang assist dengan catatan Messi 35 gol, Suarez 28 gol, dan Neymar 13 gol.
+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
